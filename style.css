@@ -1,0 +1,165 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    line-height: 1.34;
+    margin-top: 80px;
+    padding: 0;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 3px #aaaa;
+    position: relative;
+    text-align: left;
+    width: 450px;
+}
+
+.close-icon {
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    z-index: 2;
+}
+
+.p-1 {
+    padding: 1.3rem;
+}
+
+.font-bold {
+    font-weight: 600;
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+hr {
+    opacity: 0.3;
+    margin: 0;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.flex-column-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.w-full {
+    width: 100%;
+    display: flex;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.input-text-custom {
+    border: 1px solid #ccd0d5;
+    border-color: #ccd0d5;
+    background: #f5f6f7;
+    font-size: 15px;
+    line-height: 16px;
+    border-radius: 5px;
+    margin: 0;
+    padding: 11px;
+    width: 100%;
+}
+
+.label {
+    color: #606770;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.agreement {
+    color:#0d3d9b;
+    text-decoration: none;
+}
+
+.agreement:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
+  
+.radio-custom {
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    border-radius: 4px;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    padding: 0;
+    position: relative;
+    width: auto;
+  }
+  
+.gender-label {
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+}
+  
+.gender-button {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.custom-gender {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.submit-button {
+    width: 40%;
+    height: 36px;
+    margin: 0 auto;
+    padding: 0 32px;
+    cursor: pointer;
+    font-weight: bold !important;background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+  
+.error-message-container {
+    margin-top: 5px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+}
